@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="My-Website.CSS">
+</head>
+
+
+<body>
+    <div id="nav">
+        <h2>Anirban Phukon</h2>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+    <div id="intro">
+        <H1>Hey, I'm Anirban</H1>
+        <h3 id="tagline">Embeded Systems Developer | Problem Solver | Learning Daily</h3>
+        <p>I am a Developer who is passionate about Robotics and IoT. I have some basic knowledge of Web devlopment. I
+            am also learning AI/ML, So i can integrate it on future projects. </p>
+    </div>
+
+    <h2>About Me</h2>
+    <div id="about">
+        <P>I learnt basic HTML and CSS back in 4th and 5th standard. Made a simple laser security alarm in 7th standard,
+            My first original project was Soil testing device. Fast forward to now, I recently Knew what is Hackclub and
+            it's YSWSs and it's awesome. I submitted a darft of a small solar-powered ESP32 weather node on Stasis YSWS
+            and currently building this website on Macondo. I am also planing to start a local Hack Club because there
+            aren't any in my area and i want other people to work with this awesomw organization</p>
+    </div>
+    <h2>Skills</h2>
+    <div id="skills">
+        <div>
+            <h4>IoT</h4>
+        </div>
+        <div>
+            <h4>Web Development</h4>
+        </div>
+        <div>
+            <h4>Robotics</h4>
+        </div>
+        <div>
+            <h4>AI/ML</h4>
+        </div>
+
+    </div>
+    <h2>Projects</h2>
+    <div id="projects">
+        <img src="MeteoNode-thumbnail.png" alt="3d render of the project enclosure">
+        <h3>MeteoNode</h3>
+        <p>A Solar-powered ESP32 edge weather node with local forecast adjustment using live environmental trends.</p>
+        <a href="https://github.com/anirban185/MeteoNode">GitHub</a>
+        <a href="https://stasis.hackclub.com/dashboard/discover/cmouxl78200ag01o1n3y28bg8">Stasis</a>
+    </div>
+    <div id="contact">
+        <h2>Let's Work Together</h2>
+        <p>I'm always open to new opportunities and Colabrations. Reach out!</p>
+        <h4>Email</h4>
+        <p onclick="copyEmail()">phukonanirban7@gmail.com</p>
+        <p id="message"></p>
+        <h4>GitHub</h4>
+        <a href="https://github.com/anirban185">github.com/anirban185</a>
+    </div>
+    <script>
+        function copyEmail() {
+            navigator.clipboard.writeText("phukonanirban7@gmail.com");
+            document.getElementById("message").innerText = "Email Copied";
+
+            setTimeout(() => {
+                document.getElementById("message").innerText = "";
+            }, 8000);
+        }
+    </script>
+</body>
+
+</html>
