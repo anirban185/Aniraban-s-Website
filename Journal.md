@@ -8,9 +8,9 @@ Today's first task was writing the README.md . So I wrote it, pushed it to the G
 
 _Time spent: 0.7h_
 
-Today's first task was to complete the CSS file. I styled the contact section with the normal colors I was using, and then I checked the results, and the colors didn’t look good, so I changed them to a dark background color. Than i deployed the site using GitHub Pages, and I tested the site on other devices. The site's text looked too small to read from mobile, so I tried to make the site responsive using a meta tag, but I managed to make the site look worse, so I removed the meta tag and increased the font size.![image]
+Today's first task was to complete the CSS file. I styled the contact section with the normal colors I was using, and then I checked the results, and the colors didn’t look good, so I changed them to a dark background color. Than i deployed the site using GitHub Pages, and I tested the site on other devices. The site's text looked too small to read from mobile, so I tried to make the site responsive using a meta tag, but I managed to make the site look worse, so I removed the meta tag and increased the font size.
 
-(https://cdn.hackclub.com/019e937b-a072-787f-b079-853e2786fbeb/_home_anirban_My%20Website_My-Website.html%20(2).png)
+![image](https://cdn.hackclub.com/019e937b-a072-787f-b079-853e2786fbeb/_home_anirban_My%20Website_My-Website.html%20(2).png)
 
 # 3 june 2026, 23:06 - HTML and base CSS
 
